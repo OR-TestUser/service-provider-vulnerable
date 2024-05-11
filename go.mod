@@ -26,7 +26,7 @@ require (
 	github.com/stretchr/testify v1.8.2
 	github.com/xanzy/go-gitlab v0.83.0
 	go.uber.org/zap v1.24.0
-	golang.org/x/oauth2 v0.7.0
+	golang.org/x/oauth2 v0.20.0
 	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/api v0.26.1
 	k8s.io/apiextensions-apiserver v0.26.1
@@ -37,8 +37,7 @@ require (
 )
 
 require (
-	cloud.google.com/go/compute v1.18.0 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	cloud.google.com/go/iam v0.12.0 // indirect
 	cloud.google.com/go/kms v1.9.0 // indirect
 	cloud.google.com/go/monitoring v1.12.0 // indirect
